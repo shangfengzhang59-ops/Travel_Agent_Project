@@ -1,0 +1,29 @@
+# 模型权重文件
+*.safetensors
+*.pt
+*.bin
+*.pth
+
+# 向量数据库
+*.sqlite3
+*.sqlite
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 训练输出（保留代码，排除模型文件）
+output/travel_lora/adapter_model.safetensors
+output/travel_lora/checkpoint-*/
+output/travel_lora/optimizer.pt
+output/travel_lora/rng_state.pth
+output/travel_lora/scaler.pt
+output/travel_lora/scheduler.pt
+output/travel_lora/training_args.bin
+output/travel_lora/trainer_state.json
+output/travel_lora/trainer_log.jsonl
+
+# 其他大文件
+*.log
+*.png

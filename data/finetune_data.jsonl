@@ -1,0 +1,198 @@
+{"instruction": "帮我看看北京天气", "output": "思考：用户想了解北京天气，我需要调用 get_weather 工具。Action: get_weather, Args: {\"city\": \"北京\"}"}
+{"instruction": "从故宫去天安门怎么走？", "output": "思考：用户需要路径规划。Action: get_map_route, Args: {\"origin\": \"故宫\", \"destination\": \"天安门\"}"}
+{"instruction": "上海明天会下雨吗？", "output": "思考：用户想查询上海明天的天气情况。Action: get_weather, Args: {\"city\": \"上海\"}"}
+{"instruction": "从浦东机场到外滩怎么走？", "output": "思考：用户需要从浦东机场到外滩的路线。Action: get_map_route, Args: {\"origin\": \"浦东机场\", \"destination\": \"外滩\"}"}
+{"instruction": "深圳这周末天气怎么样？", "output": "思考：用户想了解深圳周末的天气预报。Action: get_weather, Args: {\"city\": \"深圳\"}"}
+{"instruction": "从广州塔到长隆动物园怎么去？", "output": "思考：用户需要从广州塔到长隆的路线规划。Action: get_map_route, Args: {\"origin\": \"广州塔\", \"destination\": \"长隆动物园\"}"}
+{"instruction": "杭州未来三天有雨吗？", "output": "思考：用户想查询杭州未来三天的天气。Action: get_weather, Args: {\"city\": \"杭州\"}"}
+{"instruction": "从西湖到灵隐寺怎么坐车？", "output": "思考：用户需要从西湖到灵隐寺的公共交通路线。Action: get_map_route, Args: {\"origin\": \"西湖\", \"destination\": \"灵隐寺\"}"}
+{"instruction": "成都今天气温多少度？", "output": "思考：用户想查询成都今天的实时温度。Action: get_weather, Args: {\"city\": \"成都\"}"}
+{"instruction": "从春熙路到宽窄巷子怎么走？", "output": "思考：用户需要从春熙路到宽窄巷子的步行路线。Action: get_map_route, Args: {\"origin\": \"春熙路\", \"destination\": \"宽窄巷子\"}"}
+{"instruction": "西安明天天气适合出去玩吗？", "output": "思考：用户想查询西安明天天气判断是否适合出游。Action: get_weather, Args: {\"city\": \"西安\"}"}
+{"instruction": "从钟楼到大雁塔怎么坐地铁？", "output": "思考：用户需要从钟楼到大雁塔的地铁路线。Action: get_map_route, Args: {\"origin\": \"钟楼\", \"destination\": \"大雁塔\"}"}
+{"instruction": "重庆这几天热不热？", "output": "思考：用户想查询重庆近几天的气温情况。Action: get_weather, Args: {\"city\": \"重庆\"}"}
+{"instruction": "从解放碑到洪崖洞怎么走最近？", "output": "思考：用户需要从解放碑到洪崖洞的最短路线。Action: get_map_route, Args: {\"origin\": \"解放碑\", \"destination\": \"洪崖洞\"}"}
+{"instruction": "厦门这周会下雨吗？", "output": "思考：用户想查询厦门这一周的降水预报。Action: get_weather, Args: {\"city\": \"厦门\"}"}
+{"instruction": "从鼓浪屿码头到中山路怎么走？", "output": "思考：用户需要从鼓浪屿码头到中山路的路线。Action: get_map_route, Args: {\"origin\": \"鼓浪屿码头\", \"destination\": \"中山路\"}"}
+{"instruction": "青岛今天空气质量怎么样？", "output": "思考：用户想查询青岛今天的空气质量指数。Action: get_weather, Args: {\"city\": \"青岛\"}"}
+{"instruction": "从栈桥到八大关怎么走？", "output": "思考：用户需要从栈桥到八大关的路线。Action: get_map_route, Args: {\"origin\": \"栈桥\", \"destination\": \"八大关\"}"}
+{"instruction": "三亚未来一周天气如何？", "output": "思考：用户想查询三亚未来一周的天气预报。Action: get_weather, Args: {\"city\": \"三亚\"}"}
+{"instruction": "从亚龙湾到天涯海角怎么去？", "output": "思考：用户需要从亚龙湾到天涯海角的路线。Action: get_map_route, Args: {\"origin\": \"亚龙湾\", \"destination\": \"天涯海角\"}"}
+{"instruction": "武汉明天会下雪吗？", "output": "思考：用户想查询武汉明天是否有降雪。Action: get_weather, Args: {\"city\": \"武汉\"}"}
+{"instruction": "从黄鹤楼到户部巷怎么走？", "output": "思考：用户需要从黄鹤楼到户部巷的路线。Action: get_map_route, Args: {\"origin\": \"黄鹤楼\", \"destination\": \"户部巷\"}"}
+{"instruction": "长沙这几天冷吗？", "output": "思考：用户想查询长沙近几天的体感温度。Action: get_weather, Args: {\"city\": \"长沙\"}"}
+{"instruction": "从岳麓山到橘子洲怎么走？", "output": "思考：用户需要从岳麓山到橘子洲的路线。Action: get_map_route, Args: {\"origin\": \"岳麓山\", \"destination\": \"橘子洲\"}"}
+{"instruction": "昆明四季如春是真的吗？", "output": "思考：用户想查询昆明的气候特点。Action: get_weather, Args: {\"city\": \"昆明\"}"}
+{"instruction": "从滇池到翠湖公园怎么走？", "output": "思考：用户需要从滇池到翠湖公园的路线。Action: get_map_route, Args: {\"origin\": \"滇池\", \"destination\": \"翠湖公园\"}"}
+{"instruction": "哈尔滨现在多少度？", "output": "思考：用户想查询哈尔滨当前的实时温度。Action: get_weather, Args: {\"city\": \"哈尔滨\"}"}
+{"instruction": "从中央大街到索菲亚教堂怎么走？", "output": "思考：用户需要从中央大街到索菲亚教堂的路线。Action: get_map_route, Args: {\"origin\": \"中央大街\", \"destination\": \"索菲亚教堂\"}"}
+{"instruction": "大连明天有雾吗？", "output": "思考：用户想查询大连明天的能见度和雾霾情况。Action: get_weather, Args: {\"city\": \"大连\"}"}
+{"instruction": "从星海广场到老虎滩怎么走？", "output": "思考：用户需要从星海广场到老虎滩的路线。Action: get_map_route, Args: {\"origin\": \"星海广场\", \"destination\": \"老虎滩\"}"}
+{"instruction": "济南今天有沙尘暴吗？", "output": "思考：用户想查询济南今天的沙尘天气情况。Action: get_weather, Args: {\"city\": \"济南\"}"}
+{"instruction": "从趵突泉到大明湖怎么走？", "output": "思考：用户需要从趵突泉到大明湖的路线。Action: get_map_route, Args: {\"origin\": \"趵突泉\", \"destination\": \"大明湖\"}"}
+{"instruction": "南京这周末适合旅游吗？", "output": "思考：用户想查询南京周末天气判断是否适合旅游。Action: get_weather, Args: {\"city\": \"南京\"}"}
+{"instruction": "从夫子庙到中山陵怎么走？", "output": "思考：用户需要从夫子庙到中山陵的路线。Action: get_map_route, Args: {\"origin\": \"夫子庙\", \"destination\": \"中山陵\"}"}
+{"instruction": "拉萨紫外线强不强？", "output": "思考：用户想查询拉萨的紫外线强度。Action: get_weather, Args: {\"city\": \"拉萨\"}"}
+{"instruction": "从布达拉宫到大昭寺怎么走？", "output": "思考：用户需要从布达拉宫到大昭寺的路线。Action: get_map_route, Args: {\"origin\": \"布达拉宫\", \"destination\": \"大昭寺\"}"}
+{"instruction": "乌鲁木齐现在下雪了吗？", "output": "思考：用户想查询乌鲁木齐当前的降雪情况。Action: get_weather, Args: {\"city\": \"乌鲁木齐\"}"}
+{"instruction": "从大巴扎到红山公园怎么走？", "output": "思考：用户需要从大巴扎到红山公园的路线。Action: get_map_route, Args: {\"origin\": \"大巴扎\", \"destination\": \"红山公园\"}"}
+{"instruction": "兰州今天刮风吗？", "output": "思考：用户想查询兰州今天的风力情况。Action: get_weather, Args: {\"city\": \"兰州\"}"}
+{"instruction": "从黄河铁桥到白塔山怎么走？", "output": "思考：用户需要从黄河铁桥到白塔山的路线。Action: get_map_route, Args: {\"origin\": \"黄河铁桥\", \"destination\": \"白塔山\"}"}
+{"instruction": "太原明天有雾霾吗？", "output": "思考：用户想查询太原明天的空气质量。Action: get_weather, Args: {\"city\": \"太原\"}"}
+{"instruction": "从晋祠到天龙山怎么走？", "output": "思考：用户需要从晋祠到天龙山的路线。Action: get_map_route, Args: {\"origin\": \"晋祠\", \"destination\": \"天龙山\"}"}
+{"instruction": "南昌这几天会下雨吗？", "output": "思考：用户想查询南昌近期的降水概率。Action: get_weather, Args: {\"city\": \"南昌\"}"}
+{"instruction": "从滕王阁到八一广场怎么走？", "output": "思考：用户需要从滕王阁到八一广场的路线。Action: get_map_route, Args: {\"origin\": \"滕王阁\", \"destination\": \"八一广场\"}"}
+{"instruction": "桂林明天能看到日出吗？", "output": "思考：用户想查询桂林明天的天气以判断能否看到日出。Action: get_weather, Args: {\"city\": \"桂林\"}"}
+{"instruction": "从象鼻山到两江四湖怎么走？", "output": "思考：用户需要从象鼻山到两江四湖的路线。Action: get_map_route, Args: {\"origin\": \"象鼻山\", \"destination\": \"两江四湖\"}"}
+{"instruction": "珠海今天适合去海边吗？", "output": "思考：用户想查询珠海今天的天气是否适合海边活动。Action: get_weather, Args: {\"city\": \"珠海\"}"}
+{"instruction": "从珠海渔女到情侣路怎么走？", "output": "思考：用户需要从珠海渔女到情侣路的路线。Action: get_map_route, Args: {\"origin\": \"珠海渔女\", \"destination\": \"情侣路\"}"}
+{"instruction": "苏州明天有雨吗？", "output": "思考：用户想查询苏州明天的降水情况。Action: get_weather, Args: {\"city\": \"苏州\"}"}
+{"instruction": "从拙政园到平江路怎么走？", "output": "思考：用户需要从拙政园到平江路的路线。Action: get_map_route, Args: {\"origin\": \"拙政园\", \"destination\": \"平江路\"}"}
+{"instruction": "北京今天有大风吗？", "output": "思考：用户想查询北京今天的风力情况。Action: get_weather, Args: {\"city\": \"北京\"}"}
+{"instruction": "从北京西站到颐和园怎么坐车？", "output": "思考：用户需要从北京西站到颐和园的公交路线。Action: get_map_route, Args: {\"origin\": \"北京西站\", \"destination\": \"颐和园\"}"}
+{"instruction": "上海今天空气质量好吗？", "output": "思考：用户想查询上海今天的空气质量。Action: get_weather, Args: {\"city\": \"上海\"}"}
+{"instruction": "从上海虹桥到迪士尼怎么走？", "output": "思考：用户需要从上海虹桥到迪士尼的路线。Action: get_map_route, Args: {\"origin\": \"上海虹桥\", \"destination\": \"迪士尼\"}"}
+{"instruction": "广州今天热不热？", "output": "思考：用户想查询广州今天的体感温度。Action: get_weather, Args: {\"city\": \"广州\"}"}
+{"instruction": "从广州东站到白云山怎么去？", "output": "思考：用户需要从广州东站到白云山的路线。Action: get_map_route, Args: {\"origin\": \"广州东站\", \"destination\": \"白云山\"}"}
+{"instruction": "深圳这周会下雨吗？", "output": "思考：用户想查询深圳这周的降水情况。Action: get_weather, Args: {\"city\": \"深圳\"}"}
+{"instruction": "从深圳北站到世界之窗怎么走？", "output": "思考：用户需要从深圳北站到世界之窗的路线。Action: get_map_route, Args: {\"origin\": \"深圳北站\", \"destination\": \"世界之窗\"}"}
+{"instruction": "杭州明天有雾吗？", "output": "思考：用户想查询杭州明天的能见度。Action: get_weather, Args: {\"city\": \"杭州\"}"}
+{"instruction": "从杭州东站到西湖怎么坐车？", "output": "思考：用户需要从杭州东站到西湖的路线。Action: get_map_route, Args: {\"origin\": \"杭州东站\", \"destination\": \"西湖\"}"}
+{"instruction": "成都明天会下大雨吗？", "output": "思考：用户想查询成都明天的降水强度。Action: get_weather, Args: {\"city\": \"成都\"}"}
+{"instruction": "从成都东站到熊猫基地怎么走？", "output": "思考：用户需要从成都东站到大熊猫基地的路线。Action: get_map_route, Args: {\"origin\": \"成都东站\", \"destination\": \"大熊猫基地\"}"}
+{"instruction": "重庆今晚温度多少？", "output": "思考：用户想查询重庆今晚的实时温度。Action: get_weather, Args: {\"city\": \"重庆\"}"}
+{"instruction": "从重庆北站到磁器口怎么坐地铁？", "output": "思考：用户需要从重庆北站到磁器口的地铁路线。Action: get_map_route, Args: {\"origin\": \"重庆北站\", \"destination\": \"磁器口\"}"}
+{"instruction": "西安今天有沙尘吗？", "output": "思考：用户想查询西安今天的沙尘天气。Action: get_weather, Args: {\"city\": \"西安\"}"}
+{"instruction": "从西安北站到兵马俑怎么去？", "output": "思考：用户需要从西安北站到兵马俑的路线。Action: get_map_route, Args: {\"origin\": \"西安北站\", \"destination\": \"兵马俑\"}"}
+{"instruction": "武汉这周会降温吗？", "output": "思考：用户想查询武汉近期的气温变化。Action: get_weather, Args: {\"city\": \"武汉\"}"}
+{"instruction": "从武汉站到黄鹤楼怎么走？", "output": "思考：用户需要从武汉站到黄鹤楼的路线。Action: get_map_route, Args: {\"origin\": \"武汉站\", \"destination\": \"黄鹤楼\"}"}
+{"instruction": "长沙明天有大太阳吗？", "output": "思考：用户想查询长沙明天的日照情况。Action: get_weather, Args: {\"city\": \"长沙\"}"}
+{"instruction": "从长沙南站到岳麓山怎么走？", "output": "思考：用户需要从长沙南站到岳麓山的路线。Action: get_map_route, Args: {\"origin\": \"长沙南站\", \"destination\": \"岳麓山\"}"}
+{"instruction": "郑州今天污染严重吗？", "output": "思考：用户想查询郑州今天的污染指数。Action: get_weather, Args: {\"city\": \"郑州\"}"}
+{"instruction": "从郑州东站到少林寺怎么去？", "output": "思考：用户需要从郑州东站到少林寺的路线。Action: get_map_route, Args: {\"origin\": \"郑州东站\", \"destination\": \"少林寺\"}"}
+{"instruction": "沈阳现在零下多少度？", "output": "思考：用户想查询沈阳当前的低温情况。Action: get_weather, Args: {\"city\": \"沈阳\"}"}
+{"instruction": "从沈阳北站到故宫怎么走？", "output": "思考：用户需要从沈阳北站到沈阳故宫的路线。Action: get_map_route, Args: {\"origin\": \"沈阳北站\", \"destination\": \"沈阳故宫\"}"}
+{"instruction": "青岛今天适合去海边吗？", "output": "思考：用户想查询青岛今天的天气是否适合海边游玩。Action: get_weather, Args: {\"city\": \"青岛\"}"}
+{"instruction": "从青岛北站到栈桥怎么坐车？", "output": "思考：用户需要从青岛北站到栈桥的路线。Action: get_map_route, Args: {\"origin\": \"青岛北站\", \"destination\": \"栈桥\"}"}
+{"instruction": "厦门今晚会刮台风吗？", "output": "思考：用户想查询厦门今晚的台风预警。Action: get_weather, Args: {\"city\": \"厦门\"}"}
+{"instruction": "从厦门北站到鼓浪屿码头怎么走？", "output": "思考：用户需要从厦门北站到鼓浪屿码头的路线。Action: get_map_route, Args: {\"origin\": \"厦门北站\", \"destination\": \"鼓浪屿码头\"}"}
+{"instruction": "大连明天有海雾吗？", "output": "思考：用户想查询大连明天的海雾情况。Action: get_weather, Args: {\"city\": \"大连\"}"}
+{"instruction": "从大连北站到星海广场怎么走？", "output": "思考：用户需要从大连北站到星海广场的路线。Action: get_map_route, Args: {\"origin\": \"大连北站\", \"destination\": \"星海广场\"}"}
+{"instruction": "昆明今天温差大吗？", "output": "思考：用户想查询昆明今天的昼夜温差。Action: get_weather, Args: {\"city\": \"昆明\"}"}
+{"instruction": "从昆明南站到滇池怎么走？", "output": "思考：用户需要从昆明南站到滇池的路线。Action: get_map_route, Args: {\"origin\": \"昆明南站\", \"destination\": \"滇池\"}"}
+{"instruction": "桂林今天有暴雨吗？", "output": "思考：用户想查询桂林今天的暴雨预警。Action: get_weather, Args: {\"city\": \"桂林\"}"}
+{"instruction": "从桂林北站到漓江怎么坐船？", "output": "思考：用户需要从桂林北站到漓江的交通路线。Action: get_map_route, Args: {\"origin\": \"桂林北站\", \"destination\": \"漓江\"}"}
+{"instruction": "哈尔滨今天能看冰雕吗？", "output": "思考：用户想查询哈尔滨今天的天气是否适合看冰雕。Action: get_weather, Args: {\"city\": \"哈尔滨\"}"}
+{"instruction": "从哈尔滨西站到冰雪大世界怎么走？", "output": "思考：用户需要从哈尔滨西站到冰雪大世界的路线。Action: get_map_route, Args: {\"origin\": \"哈尔滨西站\", \"destination\": \"冰雪大世界\"}"}
+{"instruction": "三亚今天紫外线强不强？", "output": "思考：用户想查询三亚今天的紫外线强度。Action: get_weather, Args: {\"city\": \"三亚\"}"}
+{"instruction": "从三亚站到天涯海角怎么去？", "output": "思考：用户需要从三亚站到天涯海角的路线。Action: get_map_route, Args: {\"origin\": \"三亚站\", \"destination\": \"天涯海角\"}"}
+{"instruction": "兰州今天有沙尘暴吗？", "output": "思考：用户想查询兰州今天的沙尘暴预警。Action: get_weather, Args: {\"city\": \"兰州\"}"}
+{"instruction": "从兰州站到黄河铁桥怎么走？", "output": "思考：用户需要从兰州站到黄河铁桥的路线。Action: get_map_route, Args: {\"origin\": \"兰州站\", \"destination\": \"黄河铁桥\"}"}
+{"instruction": "西宁今天冷吗？", "output": "思考：用户想查询西宁今天的气温。Action: get_weather, Args: {\"city\": \"西宁\"}"}
+{"instruction": "从西宁站到塔尔寺怎么去？", "output": "思考：用户需要从西宁站到塔尔寺的路线。Action: get_map_route, Args: {\"origin\": \"西宁站\", \"destination\": \"塔尔寺\"}"}
+{"instruction": "银川今天有大风吗？", "output": "思考：用户想查询银川今天的风力。Action: get_weather, Args: {\"city\": \"银川\"}"}
+{"instruction": "从银川站到西夏王陵怎么走？", "output": "思考：用户需要从银川站到西夏王陵的路线。Action: get_map_route, Args: {\"origin\": \"银川站\", \"destination\": \"西夏王陵\"}"}
+{"instruction": "乌鲁木齐今晚有雪吗？", "output": "思考：用户想查询乌鲁木齐今晚的降雪情况。Action: get_weather, Args: {\"city\": \"乌鲁木齐\"}"}
+{"instruction": "从乌鲁木齐站到大巴扎怎么走？", "output": "思考：用户需要从乌鲁木齐站到大巴扎的路线。Action: get_map_route, Args: {\"origin\": \"乌鲁木齐站\", \"destination\": \"大巴扎\"}"}
+{"instruction": "拉萨今天有高原反应风险吗？", "output": "思考：用户想查询拉萨今天的氧气含量和气候条件。Action: get_weather, Args: {\"city\": \"拉萨\"}"}
+{"instruction": "从拉萨站到布达拉宫怎么走？", "output": "思考：用户需要从拉萨站到布达拉宫的路线。Action: get_map_route, Args: {\"origin\": \"拉萨站\", \"destination\": \"布达拉宫\"}"}
+{"instruction": "贵阳今天有雾吗？", "output": "思考：用户想查询贵阳今天的雾天情况。Action: get_weather, Args: {\"city\": \"贵阳\"}"}
+{"instruction": "从贵阳北站到黄果树怎么去？", "output": "思考：用户需要从贵阳北站到黄果树瀑布的路线。Action: get_map_route, Args: {\"origin\": \"贵阳北站\", \"destination\": \"黄果树瀑布\"}"}
+{"instruction": "南宁今天有雷阵雨吗？", "output": "思考：用户想查询南宁今天的雷阵雨预报。Action: get_weather, Args: {\"city\": \"南宁\"}"}
+{"instruction": "从南宁东站到青秀山怎么走？", "output": "思考：用户需要从南宁东站到青秀山的路线。Action: get_map_route, Args: {\"origin\": \"南宁东站\", \"destination\": \"青秀山\"}"}
+{"instruction": "福州这周有台风吗？", "output": "思考：用户想查询福州这周的台风路径。Action: get_weather, Args: {\"city\": \"福州\"}"}
+{"instruction": "从福州站到三坊七巷怎么走？", "output": "思考：用户需要从福州站到三坊七巷的路线。Action: get_map_route, Args: {\"origin\": \"福州站\", \"destination\": \"三坊七巷\"}"}
+{"instruction": "合肥今天闷热吗？", "output": "思考：用户想查询合肥今天的体感温度和湿度。Action: get_weather, Args: {\"city\": \"合肥\"}"}
+{"instruction": "从合肥南站到巢湖怎么去？", "output": "思考：用户需要从合肥南站到巢湖的路线。Action: get_map_route, Args: {\"origin\": \"合肥南站\", \"destination\": \"巢湖\"}"}
+{"instruction": "南昌今天有酷暑预警吗？", "output": "思考：用户想查询南昌今天的高温预警。Action: get_weather, Args: {\"city\": \"南昌\"}"}
+{"instruction": "从南昌西站到滕王阁怎么走？", "output": "思考：用户需要从南昌西站到滕王阁的路线。Action: get_map_route, Args: {\"origin\": \"南昌西站\", \"destination\": \"滕王阁\"}"}
+{"instruction": "济南今天有高温吗？", "output": "思考：用户想查询济南今天的气温是否超过35度。Action: get_weather, Args: {\"city\": \"济南\"}"}
+{"instruction": "从济南西站到大明湖怎么走？", "output": "思考：用户需要从济南西站到大明湖的路线。Action: get_map_route, Args: {\"origin\": \"济南西站\", \"destination\": \"大明湖\"}"}
+{"instruction": "太原今天有霾吗？", "output": "思考：用户想查询太原今天的霾情。Action: get_weather, Args: {\"city\": \"太原\"}"}
+{"instruction": "从太原南站到晋祠怎么去？", "output": "思考：用户需要从太原南站到晋祠的路线。Action: get_map_route, Args: {\"origin\": \"太原南站\", \"destination\": \"晋祠\"}"}
+{"instruction": "石家庄今天有雨夹雪吗？", "output": "思考：用户想查询石家庄今天的降水类型。Action: get_weather, Args: {\"city\": \"石家庄\"}"}
+{"instruction": "从石家庄站到正定古城怎么走？", "output": "思考：用户需要从石家庄站到正定古城的路线。Action: get_map_route, Args: {\"origin\": \"石家庄站\", \"destination\": \"正定古城\"}"}
+{"instruction": "呼和浩特今天有沙尘吗？", "output": "思考：用户想查询呼和浩特今天的沙尘天气。Action: get_weather, Args: {\"city\": \"呼和浩特\"}"}
+{"instruction": "从呼和浩特站到昭君墓怎么去？", "output": "思考：用户需要从呼和浩特站到昭君墓的路线。Action: get_map_route, Args: {\"origin\": \"呼和浩特站\", \"destination\": \"昭君墓\"}"}
+{"instruction": "长春现在多少度？", "output": "思考：用户想查询长春当前的实时温度。Action: get_weather, Args: {\"city\": \"长春\"}"}
+{"instruction": "从长春站到伪满皇宫怎么走？", "output": "思考：用户需要从长春站到伪满皇宫的路线。Action: get_map_route, Args: {\"origin\": \"长春站\", \"destination\": \"伪满皇宫\"}"}
+{"instruction": "昆明今天有阵雨吗？", "output": "思考：用户想查询昆明今天的阵雨概率。Action: get_weather, Args: {\"city\": \"昆明\"}"}
+{"instruction": "从昆明站到石林怎么去？", "output": "思考：用户需要从昆明站到石林的路线。Action: get_map_route, Args: {\"origin\": \"昆明站\", \"destination\": \"石林\"}"}
+{"instruction": "苏州今天湿度大吗？", "output": "思考：用户想查询苏州今天的空气湿度。Action: get_weather, Args: {\"city\": \"苏州\"}"}
+{"instruction": "从苏州站到拙政园怎么走？", "output": "思考：用户需要从苏州站到拙政园的路线。Action: get_map_route, Args: {\"origin\": \"苏州站\", \"destination\": \"拙政园\"}"}
+{"instruction": "宁波今天有台风预警吗？", "output": "思考：用户想查询宁波今天的台风预警信息。Action: get_weather, Args: {\"city\": \"宁波\"}"}
+{"instruction": "从宁波站到天一阁怎么走？", "output": "思考：用户需要从宁波站到天一阁的路线。Action: get_map_route, Args: {\"origin\": \"宁波站\", \"destination\": \"天一阁\"}"}
+{"instruction": "无锡今天会下雪吗？", "output": "思考：用户想查询无锡今天的降雪情况。Action: get_weather, Args: {\"city\": \"无锡\"}"}
+{"instruction": "从无锡东站到鼋头渚怎么去？", "output": "思考：用户需要从无锡东站到鼋头渚的路线。Action: get_map_route, Args: {\"origin\": \"无锡东站\", \"destination\": \"鼋头渚\"}"}
+{"instruction": "常州今天有大雾吗？", "output": "思考：用户想查询常州今天的雾情。Action: get_weather, Args: {\"city\": \"常州\"}"}
+{"instruction": "从常州北站到恐龙园怎么走？", "output": "思考：用户需要从常州北站到中华恐龙园的路线。Action: get_map_route, Args: {\"origin\": \"常州北站\", \"destination\": \"中华恐龙园\"}"}
+{"instruction": "扬州今天适合旅游吗？", "output": "思考：用户想查询扬州今天的天气是否适合旅游。Action: get_weather, Args: {\"city\": \"扬州\"}"}
+{"instruction": "从扬州站到瘦西湖怎么走？", "output": "思考：用户需要从扬州站到瘦西湖的路线。Action: get_map_route, Args: {\"origin\": \"扬州站\", \"destination\": \"瘦西湖\"}"}
+{"instruction": "南通今天有冷空气吗？", "output": "思考：用户想查询南通今天的冷空气影响。Action: get_weather, Args: {\"city\": \"南通\"}"}
+{"instruction": "从南通站到狼山怎么去？", "output": "思考：用户需要从南通站到狼山的路线。Action: get_map_route, Args: {\"origin\": \"南通站\", \"destination\": \"狼山\"}"}
+{"instruction": "徐州今天有沙尘吗？", "output": "思考：用户想查询徐州今天的沙尘天气。Action: get_weather, Args: {\"city\": \"徐州\"}"}
+{"instruction": "从徐州东站到云龙湖怎么走？", "output": "思考：用户需要从徐州东站到云龙湖的路线。Action: get_map_route, Args: {\"origin\": \"徐州东站\", \"destination\": \"云龙湖\"}"}
+{"instruction": "温州今天有暴雨吗？", "output": "思考：用户想查询温州今天的暴雨预警。Action: get_weather, Args: {\"city\": \"温州\"}"}
+{"instruction": "从温州南站到雁荡山怎么去？", "output": "思考：用户需要从温州南站到雁荡山的路线。Action: get_map_route, Args: {\"origin\": \"温州南站\", \"destination\": \"雁荡山\"}"}
+{"instruction": "泉州今天有台风吗？", "output": "思考：用户想查询泉州今天的台风影响。Action: get_weather, Args: {\"city\": \"泉州\"}"}
+{"instruction": "从泉州站到清源山怎么走？", "output": "思考：用户需要从泉州站到清源山的路线。Action: get_map_route, Args: {\"origin\": \"泉州站\", \"destination\": \"清源山\"}"}
+{"instruction": "漳州今天有暴雨吗？", "output": "思考：用户想查询漳州今天的暴雨预报。Action: get_weather, Args: {\"city\": \"漳州\"}"}
+{"instruction": "从漳州站到土楼怎么去？", "output": "思考：用户需要从漳州站到土楼的路线。Action: get_map_route, Args: {\"origin\": \"漳州站\", \"destination\": \"土楼\"}"}
+{"instruction": "汕头今天有台风吗？", "output": "思考：用户想查询汕头今天的台风预警。Action: get_weather, Args: {\"city\": \"汕头\"}"}
+{"instruction": "从汕头站到南澳岛怎么去？", "output": "思考：用户需要从汕头站到南澳岛的路线。Action: get_map_route, Args: {\"origin\": \"汕头站\", \"destination\": \"南澳岛\"}"}
+{"instruction": "珠海今天适合出海吗？", "output": "思考：用户想查询珠海今天的海上天气。Action: get_weather, Args: {\"city\": \"珠海\"}"}
+{"instruction": "从珠海站到长隆海洋王国怎么走？", "output": "思考：用户需要从珠海站到长隆海洋王国的路线。Action: get_map_route, Args: {\"origin\": \"珠海站\", \"destination\": \"长隆海洋王国\"}"}
+{"instruction": "中山今天有台风吗？", "output": "思考：用户想查询中山今天的台风路径。Action: get_weather, Args: {\"city\": \"中山\"}"}
+{"instruction": "从中山北站到孙中山故居怎么走？", "output": "思考：用户需要从中山北站到孙中山故居的路线。Action: get_map_route, Args: {\"origin\": \"中山北站\", \"destination\": \"孙中山故居\"}"}
+{"instruction": "佛山今天有雷雨吗？", "output": "思考：用户想查询佛山今天的雷雨预警。Action: get_weather, Args: {\"city\": \"佛山\"}"}
+{"instruction": "从佛山西站到祖庙怎么走？", "output": "思考：用户需要从佛山西站到祖庙的路线。Action: get_map_route, Args: {\"origin\": \"佛山西站\", \"destination\": \"祖庙\"}"}
+{"instruction": "东莞今天有暴雨吗？", "output": "思考：用户想查询东莞今天的暴雨预警。Action: get_weather, Args: {\"city\": \"东莞\"}"}
+{"instruction": "从东莞站到可园怎么走？", "output": "思考：用户需要从东莞站到可园的路线。Action: get_map_route, Args: {\"origin\": \"东莞站\", \"destination\": \"可园\"}"}
+{"instruction": "惠州今天有台风吗？", "output": "思考：用户想查询惠州今天的台风影响。Action: get_weather, Args: {\"city\": \"惠州\"}"}
+{"instruction": "从惠州站到罗浮山怎么去？", "output": "思考：用户需要从惠州站到罗浮山的路线。Action: get_map_route, Args: {\"origin\": \"惠州站\", \"destination\": \"罗浮山\"}"}
+{"instruction": "江门今天有大雨吗？", "output": "思考：用户想查询江门今天的大雨情况。Action: get_weather, Args: {\"city\": \"江门\"}"}
+{"instruction": "从江门站到开平碉楼怎么去？", "output": "思考：用户需要从江门站到开平碉楼的路线。Action: get_map_route, Args: {\"origin\": \"江门站\", \"destination\": \"开平碉楼\"}"}
+{"instruction": "湛江今天有台风吗？", "output": "思考：用户想查询湛江今天的台风预警。Action: get_weather, Args: {\"city\": \"湛江\"}"}
+{"instruction": "从湛江西站到湖光岩怎么走？", "output": "思考：用户需要从湛江西站到湖光岩的路线。Action: get_map_route, Args: {\"origin\": \"湛江西站\", \"destination\": \"湖光岩\"}"}
+{"instruction": "茂名今天有暴雨吗？", "output": "思考：用户想查询茂名今天的暴雨预报。Action: get_weather, Args: {\"city\": \"茂名\"}"}
+{"instruction": "从茂名站到放鸡岛怎么去？", "output": "思考：用户需要从茂名站到放鸡岛的路线。Action: get_map_route, Args: {\"origin\": \"茂名站\", \"destination\": \"放鸡岛\"}"}
+{"instruction": "肇庆今天有雷阵雨吗？", "output": "思考：用户想查询肇庆今天的雷阵雨预警。Action: get_weather, Args: {\"city\": \"肇庆\"}"}
+{"instruction": "从肇庆站到七星岩怎么走？", "output": "思考：用户需要从肇庆站到七星岩的路线。Action: get_map_route, Args: {\"origin\": \"肇庆站\", \"destination\": \"七星岩\"}"}
+{"instruction": "清远今天有暴雨吗？", "output": "思考：用户想查询清远今天的暴雨情况。Action: get_weather, Args: {\"city\": \"清远\"}"}
+{"instruction": "从清远站到连州地下河怎么去？", "output": "思考：用户需要从清远站到连州地下河的路线。Action: get_map_route, Args: {\"origin\": \"清远站\", \"destination\": \"连州地下河\"}"}
+{"instruction": "潮州今天有台风吗？", "output": "思考：用户想查询潮州今天的台风影响。Action: get_weather, Args: {\"city\": \"潮州\"}"}
+{"instruction": "从潮州站到广济桥怎么走？", "output": "思考：用户需要从潮州站到广济桥的路线。Action: get_map_route, Args: {\"origin\": \"潮州站\", \"destination\": \"广济桥\"}"}
+{"instruction": "揭阳今天有暴雨吗？", "output": "思考：用户想查询揭阳今天的暴雨预警。Action: get_weather, Args: {\"city\": \"揭阳\"}"}
+{"instruction": "从揭阳站到黄岐山怎么走？", "output": "思考：用户需要从揭阳站到黄岐山的路线。Action: get_map_route, Args: {\"origin\": \"揭阳站\", \"destination\": \"黄岐山\"}"}
+{"instruction": "梅州今天有大雨吗？", "output": "思考：用户想查询梅州今天的大雨情况。Action: get_weather, Args: {\"city\": \"梅州\"}"}
+{"instruction": "从梅州站到雁南飞怎么去？", "output": "思考：用户需要从梅州站到雁南飞茶田的路线。Action: get_map_route, Args: {\"origin\": \"梅州站\", \"destination\": \"雁南飞\"}"}
+{"instruction": "汕尾今天有台风吗？", "output": "思考：用户想查询汕尾今天的台风预警。Action: get_weather, Args: {\"city\": \"汕尾\"}"}
+{"instruction": "从汕尾站到红海湾怎么走？", "output": "思考：用户需要从汕尾站到红海湾的路线。Action: get_map_route, Args: {\"origin\": \"汕尾站\", \"destination\": \"红海湾\"}"}
+{"instruction": "河源今天有暴雨吗？", "output": "思考：用户想查询河源今天的暴雨预报。Action: get_weather, Args: {\"city\": \"河源\"}"}
+{"instruction": "从河源站到万绿湖怎么去？", "output": "思考：用户需要从河源站到万绿湖的路线。Action: get_map_route, Args: {\"origin\": \"河源站\", \"destination\": \"万绿湖\"}"}
+{"instruction": "阳江今天有台风吗？", "output": "思考：用户想查询阳江今天的台风影响。Action: get_weather, Args: {\"city\": \"阳江\"}"}
+{"instruction": "从阳江站到海陵岛怎么去？", "output": "思考：用户需要从阳江站到海陵岛的路线。Action: get_map_route, Args: {\"origin\": \"阳江站\", \"destination\": \"海陵岛\"}"}
+{"instruction": "韶关今天有冷空气吗？", "output": "思考：用户想查询韶关今天的冷空气情况。Action: get_weather, Args: {\"city\": \"韶关\"}"}
+{"instruction": "从韶关站到丹霞山怎么走？", "output": "思考：用户需要从韶关站到丹霞山的路线。Action: get_map_route, Args: {\"origin\": \"韶关站\", \"destination\": \"丹霞山\"}"}
+{"instruction": "云浮今天有大雨吗？", "output": "思考：用户想查询云浮今天的大雨情况。Action: get_weather, Args: {\"city\": \"云浮\"}"}
+{"instruction": "从云浮站到六祖故里怎么去？", "output": "思考：用户需要从云浮站到六祖故里的路线。Action: get_map_route, Args: {\"origin\": \"云浮站\", \"destination\": \"六祖故里\"}"}
+{"instruction": "景德镇今天有雨吗？", "output": "思考：用户想查询景德镇今天的降水情况。Action: get_weather, Args: {\"city\": \"景德镇\"}"}
+{"instruction": "从景德镇北站到古窑民俗博览区怎么走？", "output": "思考：用户需要从景德镇北站到古窑民俗博览区的路线。Action: get_map_route, Args: {\"origin\": \"景德镇北站\", \"destination\": \"古窑民俗博览区\"}"}
+{"instruction": "九江今天有大风吗？", "output": "思考：用户想查询九江今天的风力。Action: get_weather, Args: {\"city\": \"九江\"}"}
+{"instruction": "从九江站到庐山怎么去？", "output": "思考：用户需要从九江站到庐山的路线。Action: get_map_route, Args: {\"origin\": \"九江站\", \"destination\": \"庐山\"}"}
+{"instruction": "赣州今天有暴雨吗？", "output": "思考：用户想查询赣州今天的暴雨预警。Action: get_weather, Args: {\"city\": \"赣州\"}"}
+{"instruction": "从赣州站到郁孤台怎么走？", "output": "思考：用户需要从赣州站到郁孤台的路线。Action: get_map_route, Args: {\"origin\": \"赣州站\", \"destination\": \"郁孤台\"}"}
+{"instruction": "吉安今天有雨吗？", "output": "思考：用户想查询吉安今天的降水情况。Action: get_weather, Args: {\"city\": \"吉安\"}"}
+{"instruction": "从吉安站到井冈山怎么去？", "output": "思考：用户需要从吉安站到井冈山的路线。Action: get_map_route, Args: {\"origin\": \"吉安站\", \"destination\": \"井冈山\"}"}
+{"instruction": "上饶今天有暴雨吗？", "output": "思考：用户想查询上饶今天的暴雨预报。Action: get_weather, Args: {\"city\": \"上饶\"}"}
+{"instruction": "从上饶站到三清山怎么去？", "output": "思考：用户需要从上饶站到三清山的路线。Action: get_map_route, Args: {\"origin\": \"上饶站\", \"destination\": \"三清山\"}"}
+{"instruction": "宜春今天有雨吗？", "output": "思考：用户想查询宜春今天的降水情况。Action: get_weather, Args: {\"city\": \"宜春\"}"}
+{"instruction": "从宜春站到明月山怎么去？", "output": "思考：用户需要从宜春站到明月山的路线。Action: get_map_route, Args: {\"origin\": \"宜春站\", \"destination\": \"明月山\"}"}
+{"instruction": "抚州今天有暴雨吗？", "output": "思考：用户想查询抚州今天的暴雨预警。Action: get_weather, Args: {\"city\": \"抚州\"}"}
+{"instruction": "从抚州站到文昌里怎么走？", "output": "思考：用户需要从抚州站到文昌里的路线。Action: get_map_route, Args: {\"origin\": \"抚州站\", \"destination\": \"文昌里\"}"}
+{"instruction": "新余今天有雨吗？", "output": "思考：用户想查询新余今天的降水情况。Action: get_weather, Args: {\"city\": \"新余\"}"}
+{"instruction": "从新余北站到仙女湖怎么去？", "output": "思考：用户需要从新余北站到仙女湖的路线。Action: get_map_route, Args: {\"origin\": \"新余北站\", \"destination\": \"仙女湖\"}"}
+{"instruction": "鹰潭今天有暴雨吗？", "output": "思考：用户想查询鹰潭今天的暴雨预警。Action: get_weather, Args: {\"city\": \"鹰潭\"}"}
+{"instruction": "从鹰潭北站到龙虎山怎么去？", "output": "思考：用户需要从鹰潭北站到龙虎山的路线。Action: get_map_route, Args: {\"origin\": \"鹰潭北站\", \"destination\": \"龙虎山\"}"}
+{"instruction": "萍乡今天有大雨吗？", "output": "思考：用户想查询萍乡今天的大雨情况。Action: get_weather, Args: {\"city\": \"萍乡\"}"}
+{"instruction": "从萍乡北站到武功山怎么去？", "output": "思考：用户需要从萍乡北站到武功山的路线。Action: get_map_route, Args: {\"origin\": \"萍乡北站\", \"destination\": \"武功山\"}"}
