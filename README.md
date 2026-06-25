@@ -40,7 +40,7 @@ Travel_Agent_Project/
 ├── saved_plans/             # 自动生成的本地 Markdown 档案
 ├── web_demo_final.py        # Gradio 前端交互主程序
 └── requirements.txt         # 依赖环境配置
-
+```
 ---
 
 ## 🚀 快速开始
@@ -62,7 +62,7 @@ python web_demo_final.py
 
 ---
 
-💡 典型指令示例
+## 💡 典型指令示例
 意图分类	测试指令	预期行为
 攻略规划	"帮我规划一下成都的攻略，要看大熊猫。"	调用搜索+天气，生成 Markdown 行程表
 气象建议	"2026年6月成都天气热吗？该穿什么？"	识别远期日期，给出季节性避暑建议
@@ -71,6 +71,6 @@ python web_demo_final.py
 
 ---
 
-📝 鸣谢
+## 📝 鸣谢
 本项目作为《大模型微调与优化》课程大作业（模式二：个人提交）。
 感谢 AutoDL 提供的算力支持。
