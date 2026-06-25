@@ -1,4 +1,3 @@
-# 一站式智能旅行规划专家\n基于Qwen2.5微调的旅行Agent系统。
 # 🌍 一站式智能旅行规划专家 (Multi-Agent Travel System)
 
 [![Model](https://img.shields.io/badge/Model-Qwen2.5--0.5B--Instruct-blue)](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
